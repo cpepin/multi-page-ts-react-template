@@ -1,0 +1,10 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "User Page",
+  "main": "index.js",
+  "author": "Cameron Pepin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "author": "Cameron Pepin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}
