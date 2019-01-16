@@ -38,6 +38,19 @@ module.exports = {
           'awesome-typescript-loader'
         ] 
       },
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules\/(?!(react-router-dom)\/).*/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              // use the babel.config.js file
+              babelrc: true,
+            },
+          },
+        ] 
+      },
     ]
   },
   plugins: [
