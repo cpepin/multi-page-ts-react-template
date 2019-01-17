@@ -53,6 +53,11 @@ module.exports = {
       },
     ]
   },
+  optimization: {
+    // lets webpack handle loading of scripts
+    // this will allow us to dynamically load modules
+    runtimeChunk: true,
+  },
   plugins: [
     new CleanWebpackPlugin(path.join(__dirname, '../dist'), { allowExternal: true }),
     new HtmlWebpackPlugin({
